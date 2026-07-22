@@ -1,0 +1,56 @@
+[
+  {
+    "id": "CADMUS-MARE-02",
+    "title": "Malware analysis, detection and threat intelligence",
+    "type": "Malware Analysis",
+    "session": "06/07/2026 - 03/08/2026",
+    "deadline": "12 July 2026",
+    "link": "#",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "CADMUS-MARE-03",
+    "title": "Reverse Engineering",
+    "type": "Malware Analysis",
+    "session": "20/07/2026 - 16/08/2026",
+    "deadline": "26 July 2026",
+    "link": "https://cybersec.upatras.gr/registration/cadmus-mare-03",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "CADMUS-BTCMP-18",
+    "title": "OSINT Bootcamp",
+    "type": "Bootcamp",
+    "session": "13/07/2026 - 27/07/2026",
+    "deadline": "10 July 2026",
+    "link": "#",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "CADMUS-MARE-01",
+    "title": "Introduction to Malware Detection",
+    "type": "Malware Analysis",
+    "session": "27/04/2026 - 07/06/2026",
+    "deadline": "26 April 2026",
+    "link": "#",
+    "status": "CLOSED"
+  },
+  {
+    "id": "CADMUS-SGTX-01",
+    "title": "Public Sector Ransomware Crisis",
+    "type": "Table-Top Exercise",
+    "session": "08/05/2026 - 24/05/2026",
+    "deadline": "6 May 2026",
+    "link": "#",
+    "status": "CLOSED"
+  },
+  {
+    "id": "CADMUS-BTCMP-03",
+    "title": "Basics of Security Hardening of Networking Devices",
+    "type": "Bootcamp",
+    "session": "01/07/2026 - 02/07/2026",
+    "deadline": "30 June 2026",
+    "link": "#",
+    "status": "CLOSED"
+  }
+]
