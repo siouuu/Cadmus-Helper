@@ -1,0 +1,149 @@
+<div class="cadmus-training-grid py-3">
+  <div class="row justify-content-center mx-n2"><!-- Course 1 -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-3">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-info" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-2"><span
+              class="badge badge-info text-uppercase mr-1">Malware
+              Analysis</span> <span
+              class="badge badge-success text-uppercase">Active</span></div>
+          <h3 class="card-title mb-2">Malware analysis, detection and threat
+            intelligence</h3>
+          <div class="mb-3 small">
+            <div><span class="text-muted">Course
+                ID:</span> <strong>CADMUS-MARE-02</strong></div>
+            <div><span class="text-muted">Training
+                Session:</span> <strong>06/07/2026 - 03/08/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Registration deadline:</span> <strong>12
+                July 2026</strong> </span> <a
+              class="btn btn-secondary cadmus-mini-register disabled"
+              tabindex="-1" href="#" aria-disabled="true"> Register </a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Course 2 -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-3">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-info" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-2"><span
+              class="badge badge-info text-uppercase mr-1">Malware
+              Analysis</span> <span
+              class="badge badge-success text-uppercase">Active</span></div>
+          <h3 class="card-title mb-2">Reverse Engineering</h3>
+          <div class="mb-3 small">
+            <div><span class="text-muted">Course ID:</span>
+              <strong>CADMUS-MARE-03</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>20/07/2026 - 16/08/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Registration deadline:</span> <strong>26
+                July 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-mare-03"
+              target="_blank" rel="noopener"> Register </a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Course 3 -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-3">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-warning" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-2"><span
+              class="badge badge-warning text-uppercase mr-1">BOOTCAMP</span>
+            <span class="badge badge-success text-uppercase">ACTIVE</span></div>
+          <h3 class="card-title mb-2">OSINT Bootcamp</h3>
+          <div class="mb-3 small">
+            <div><span class="text-muted">Course ID:</span>
+              <strong>CADMUS-BTCMP-18</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>13/07/2026 - 27/07/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Registration deadline:</span> <strong>10
+                July 2026</strong> </span> <a
+              class="btn btn-secondary cadmus-mini-register disabled"
+              tabindex="-1" href="#" aria-disabled="true"> Register </a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Course 4 -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-3">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-secondary" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-2"><span
+              class="badge badge-info text-uppercase mr-1">Malware
+              Analysis</span> <span
+              class="badge badge-secondary text-uppercase">Closed</span></div>
+          <h3 class="card-title mb-2">Introduction to Malware Detection</h3>
+          <div class="mb-3 small">
+            <div><span class="text-muted">Course ID:</span>
+              <strong>CADMUS-MARE-01</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>27/04/2026 - 07/06/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Registration deadline:</span> <strong>26
+                April 2026</strong> </span> <a
+              class="btn btn-secondary cadmus-mini-register disabled"
+              tabindex="-1" href="#" aria-disabled="true"> Register </a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Course 5 -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-3">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-secondary" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-2"><span
+              class="badge badge-info text-uppercase mr-1">Table-top
+              Exercise</span> <span
+              class="badge badge-secondary text-uppercase">Closed</span></div>
+          <h3 class="card-title mb-2">Public Sector Ransomware Crisis</h3>
+          <div class="mb-3 small">
+            <div><span class="text-muted">Course ID:</span>
+              <strong>CADMUS-SGTX-01</strong></div>
+            <div><span class="text-muted">Training
+                Session:</span> <strong>08/05/2026 - 24/05/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Registration deadline:</span> <strong>6
+                May 2026</strong> </span> <a
+              class="btn btn-secondary cadmus-mini-register disabled"
+              tabindex="-1" href="#" aria-disabled="true"> Register </a></div>
+        </div>
+      </div>
+    </div>
+    <!--  Course 6 -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-3">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-secondary" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-2"><span
+              class="badge badge-warning text-uppercase mr-1">BOOTCAMP</span>
+            <span class="badge badge-secondary text-uppercase">Closed</span>
+          </div>
+          <h3 class="card-title mb-2">Basics of Security Hardening of Networking
+            Devices</h3>
+          <div class="mb-3 small">
+            <div><span class="text-muted">Course ID:</span>
+              <strong>CADMUS-BTCMP-03</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>01/07/2026 - 02/07/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Registration deadline:</span> <strong>30
+                June 2026</strong> </span> <a
+              class="btn btn-secondary cadmus-mini-register disabled"
+              tabindex="-1" href="#" aria-disabled="true"> Register </a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
