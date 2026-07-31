@@ -6,6 +6,7 @@
     "session": "06/07/2026 - 03/08/2026",
     "deadline": "12 July 2026",
     "link": "#",
+    "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=5#:~:text=Malware%20analysis%2C%20detection%20and%20threat%20intelligence,-ID",
     "status": "ACTIVE"
   },
   {
@@ -15,6 +16,7 @@
     "session": "20/07/2026 - 16/08/2026",
     "deadline": "26 July 2026",
     "link": "https://cybersec.upatras.gr/registration/cadmus-mare-03",
+    "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=5#:~:text=Reverse%20Engineering,-ID",
     "status": "ACTIVE"
   },
   {
@@ -24,6 +26,7 @@
     "session": "13/07/2026 - 27/07/2026",
     "deadline": "10 July 2026",
     "link": "#",
+    "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=8#:~:text=OSINT%20Bootcamp,-ID",
     "status": "ACTIVE"
   },
   {
@@ -33,15 +36,17 @@
     "session": "27/04/2026 - 07/06/2026",
     "deadline": "26 April 2026",
     "link": "#",
+    "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=5#:~:text=Introduction%20to%20Malware%20Detection,-ID",
     "status": "CLOSED"
   },
   {
-    "id": "CADMUS-SGTX-01",
+    "id": "CADMUS-SGTTX-01",
     "title": "Public Sector Ransomware Crisis",
     "type": "Table-Top Exercise",
     "session": "08/05/2026 - 24/05/2026",
     "deadline": "6 May 2026",
     "link": "#",
+    "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=4#:~:text=Public%20Sector%20Ransomware%20Crisis,-ID",
     "status": "CLOSED"
   },
   {
@@ -51,6 +56,17 @@
     "session": "01/07/2026 - 02/07/2026",
     "deadline": "30 June 2026",
     "link": "#",
+    "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=8#:~:text=Basics%20of%20Security%20Hardening%20of%20Networking%20Devices,-ID",
     "status": "CLOSED"
+  },
+  {
+    "id": "CADMUS-BTCMP-16",
+    "title": "Bootcamp 16",
+    "type": "Bootcamp",
+    "session": "September 2026",
+    "deadline": "TBA",
+    "link": "#",
+    "course_url": "#",
+    "status": "COMING SOON"
   }
 ]

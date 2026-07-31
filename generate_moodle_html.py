@@ -45,6 +45,8 @@ def generate_card(course):
         btn_href = 'href="#"'
         btn_attr = 'aria-disabled="true" tabindex="-1"'
 
+    course_url = course.get("course_url", "#")
+
     return f'''
     <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
       <div class="card cadmus-course-card h-100 shadow-sm">
@@ -54,7 +56,7 @@ def generate_card(course):
             <span class="badge bg-{color} text-uppercase me-1">{course["type"]}</span>
             {status_badge}
           </div>
-          <h3 class="card-title fw-bold mb-3">{course["title"]}</h3>
+          <h3 class="card-title fw-bold mb-3"><a href="{course_url}" target="_blank" rel="noopener">{course["title"]}</a></h3>
           <div class="mb-4 small">
             <div class="mb-1"><span class="text-muted">Course ID:</span> <strong>{course["id"]}</strong></div>
             <div><span class="text-muted">Training Session:</span> <strong>{course["session"]}</strong></div>
@@ -85,6 +87,8 @@ def main():
 .cadmus-training-grid .cadmus-accent { height: 3px; }
 .cadmus-training-grid .card-body { padding: 1rem; }
 .cadmus-training-grid .card-title { color: var(--bs-body-color, inherit); font-size: .98rem; line-height: 1.35; }
+.cadmus-training-grid .card-title a { color: inherit; text-decoration: none; }
+.cadmus-training-grid .card-title a:hover { text-decoration: underline; }
 .cadmus-training-grid .badge { font-size: .65rem; font-weight: 600; letter-spacing: .035em; padding: .32rem .48rem; }
 .cadmus-training-grid .cadmus-badge-open { color: #146c43; background-color: #d1e7dd; border: 1px solid #a3cfbb; }
 .cadmus-training-grid .cadmus-meta { display: flex; align-items: center; gap: .25rem; background-color: var(--bs-secondary-bg, #f8f9fa); border: 1px solid var(--bs-border-color); border-radius: .375rem; padding: .42rem .5rem; }
