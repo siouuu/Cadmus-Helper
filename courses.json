@@ -1,72 +1,90 @@
 [
   {
-    "id": "CADMUS-MARE-02",
-    "title": "Malware analysis, detection and threat intelligence",
-    "type": "Malware Analysis",
-    "session": "06/07/2026 - 03/08/2026",
-    "deadline": "12 July 2026",
-    "link": "#",
-    "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=5#:~:text=Malware%20analysis%2C%20detection%20and%20threat%20intelligence,-ID",
-    "status": "ACTIVE"
+    "training_session_id": "CADMUS-BTCMP-16-1",
+    "course_title": "Digital Forensics",
+    "course_type": "Bootcamp",
+    "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=8#:~:text=Digital%20Forensics,-ID",
+    "course_start_date": "15/09/26",
+    "course_end_date": "30/09/26",
+    "enrolment_url": "#",
+    "enrolment_start_date": "",
+    "enrolment_end_date": "15/09/26"
   },
   {
-    "id": "CADMUS-MARE-03",
-    "title": "Reverse Engineering",
-    "type": "Malware Analysis",
-    "session": "20/07/2026 - 16/08/2026",
-    "deadline": "26 July 2026",
-    "link": "https://cybersec.upatras.gr/registration/cadmus-mare-03",
-    "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=5#:~:text=Reverse%20Engineering,-ID",
-    "status": "ACTIVE"
-  },
-  {
-    "id": "CADMUS-BTCMP-18",
-    "title": "OSINT Bootcamp",
-    "type": "Bootcamp",
-    "session": "13/07/2026 - 27/07/2026",
-    "deadline": "10 July 2026",
-    "link": "#",
-    "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=8#:~:text=OSINT%20Bootcamp,-ID",
-    "status": "ACTIVE"
-  },
-  {
-    "id": "CADMUS-MARE-01",
-    "title": "Introduction to Malware Detection",
-    "type": "Malware Analysis",
-    "session": "27/04/2026 - 07/06/2026",
-    "deadline": "26 April 2026",
-    "link": "#",
+    "training_session_id": "CADMUS-MARE-1-1",
+    "course_title": "Introduction to Malware Detection",
+    "course_type": "Malware Analysis",
     "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=5#:~:text=Introduction%20to%20Malware%20Detection,-ID",
-    "status": "CLOSED"
+    "course_start_date": "27/04/26",
+    "course_end_date": "07/06/26",
+    "enrolment_url": "#",
+    "enrolment_start_date": "",
+    "enrolment_end_date": "26/04/26"
   },
   {
-    "id": "CADMUS-SGTTX-01",
-    "title": "Public Sector Ransomware Crisis",
-    "type": "Table-Top Exercise",
-    "session": "08/05/2026 - 24/05/2026",
-    "deadline": "6 May 2026",
-    "link": "#",
+    "training_session_id": "CADMUS-SGTTX-1-1",
+    "course_title": "Public Sector Ransomware Crisis",
+    "course_type": "Table Top Exercise",
     "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=4#:~:text=Public%20Sector%20Ransomware%20Crisis,-ID",
-    "status": "CLOSED"
+    "course_start_date": "08/05/26",
+    "course_end_date": "24/05/26",
+    "enrolment_url": "#",
+    "enrolment_start_date": "",
+    "enrolment_end_date": "06/05/26"
   },
   {
-    "id": "CADMUS-BTCMP-03",
-    "title": "Basics of Security Hardening of Networking Devices",
-    "type": "Bootcamp",
-    "session": "01/07/2026 - 02/07/2026",
-    "deadline": "30 June 2026",
-    "link": "#",
+    "training_session_id": "CADMUS-BTCMP-3-1",
+    "course_title": "Basics of Security Hardening of Networking Devices",
+    "course_type": "Bootcamp",
     "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=8#:~:text=Basics%20of%20Security%20Hardening%20of%20Networking%20Devices,-ID",
-    "status": "CLOSED"
+    "course_start_date": "01/07/26",
+    "course_end_date": "02/07/26",
+    "enrolment_url": "#",
+    "enrolment_start_date": "",
+    "enrolment_end_date": "30/06/26"
   },
   {
-    "id": "CADMUS-BTCMP-16",
-    "title": "Bootcamp 16",
-    "type": "Bootcamp",
-    "session": "September 2026",
-    "deadline": "TBA",
-    "link": "#",
-    "course_url": "#",
-    "status": "COMING SOON"
+    "training_session_id": "CADMUS-MARE-2-1",
+    "course_title": "Malware analysis, detection and threat intelligence",
+    "course_type": "Malware Analysis",
+    "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=5#:~:text=Malware%20analysis%2C%20detection%20and%20threat%20intelligence,-ID",
+    "course_start_date": "06/07/26",
+    "course_end_date": "16/08/26",
+    "enrolment_url": "#",
+    "enrolment_start_date": "",
+    "enrolment_end_date": "12/07/26"
+  },
+  {
+    "training_session_id": "CADMUS-MARE-3-1",
+    "course_title": "Reverse Engineering",
+    "course_type": "Malware Analysis",
+    "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=5#:~:text=Reverse%20Engineering,-ID",
+    "course_start_date": "20/07/26",
+    "course_end_date": "16/08/26",
+    "enrolment_url": "#",
+    "enrolment_start_date": "",
+    "enrolment_end_date": "26/07/26"
+  },
+  {
+    "training_session_id": "CADMUS-BTCMP-18-1",
+    "course_title": "OSINT Bootcamp",
+    "course_type": "Bootcamp",
+    "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=8#:~:text=OSINT%20Bootcamp,-ID",
+    "course_start_date": "13/07/26",
+    "course_end_date": "31/07/26",
+    "enrolment_url": "#",
+    "enrolment_start_date": "",
+    "enrolment_end_date": "10/07/26"
+  },
+  {
+    "training_session_id": "CADMUS-BTCMP-3-2",
+    "course_title": "Basics of Security Hardening of Networking Devices",
+    "course_type": "Bootcamp",
+    "course_url": "https://cybersec.upatras.gr/course/index.php?categoryid=8#:~:text=Basics%20of%20Security%20Hardening%20of%20Networking%20Devices,-ID",
+    "course_start_date": "27/08/26",
+    "course_end_date": "28/08/26",
+    "enrolment_url": "#",
+    "enrolment_start_date": "",
+    "enrolment_end_date": "26/08/26"
   }
 ]
