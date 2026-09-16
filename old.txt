@@ -1,7 +1,6 @@
 <div class="cadmus-training-grid py-4">
-  <h4 class="mb-4 text-dark border-bottom pb-2 fw-bold">Upcoming Training
-    Sessions:</h4>
-  <div class="row justify-content-start mx-n2 mb-5">
+  <h4 class="mb-4 border-bottom pb-2 fw-bold">Upcoming Training Sessions:</h4>
+  <div class="row justify-content-start mx-n2 mb-5"><!-- Digital Forensics -->
     <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
       <div class="card cadmus-course-card h-100 shadow-sm">
         <div class="cadmus-accent bg-warning" aria-hidden="true"> </div>
@@ -11,25 +10,418 @@
               class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
           </div>
           <h3 class="card-title fw-bold mb-3"><a
-              href="https://cybersec.upatras.gr/course/index.php?categoryid=8#:~:text=Digital%20Forensics,-ID"
+              href="https://cybersec.upatras.gr/course/view.php?id=9"
               target="_blank" rel="noopener">Digital Forensics</a></h3>
           <div class="mb-4 small">
             <div class="mb-1"><span class="text-muted">Session ID:</span>
               <strong>CADMUS-BTCMP-16 (#1)</strong></div>
             <div><span class="text-muted">Training Session:</span>
-              <strong>Mid-September 2026</strong></div>
+              <strong>25/09/2026 - 11/10/2026</strong></div>
           </div>
           <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
-              <span class="text-muted">Enrolment deadline:</span>
-              <strong>Mid-September 2026</strong> </span> <a
-              class="btn btn-secondary disabled cadmus-mini-register"
-              tabindex="-1" href="#" aria-disabled="true">Enrol</a></div>
+              <span class="text-muted">Enrolment deadline:</span> <strong>24
+                September 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-btcmp-16/"
+              target="_blank" rel="noopener">Enrol</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Network Penetration Testing -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-primary" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-3"><span
+              class="badge bg-primary text-uppercase me-1">Cyber Range</span>
+            <span
+              class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
+          </div>
+          <h3 class="card-title fw-bold mb-3"><a
+              href="https://cybersec.upatras.gr/course/view.php?id=11"
+              target="_blank" rel="noopener">Network Penetration Testing</a>
+          </h3>
+          <div class="mb-4 small">
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-CR-18 (#1)</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>12/10/2026 - 19/10/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Enrolment deadline:</span> <strong>11
+                October 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-cr-18/"
+              target="_blank" rel="noopener">Enrol</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Incident Response - Crisis Leadership & Decision Management -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-warning" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-3"><span
+              class="badge bg-warning text-uppercase me-1">Bootcamp</span> <span
+              class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
+          </div>
+          <h3 class="card-title fw-bold mb-3"><a
+              href="https://cybersec.upatras.gr/course/view.php?id=55"
+              target="_blank" rel="noopener">Incident Response - Crisis
+              Leadership &amp; Decision Management</a></h3>
+          <div class="mb-4 small">
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-BTCMP-07 (#1)</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>20/10/2026 - 20/11/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Enrolment deadline:</span> <strong>19
+                October 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-btcmp-07/"
+              target="_blank" rel="noopener">Enrol</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Incident Response - Cyber Legal -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-warning" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-3"><span
+              class="badge bg-warning text-uppercase me-1">Bootcamp</span> <span
+              class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
+          </div>
+          <h3 class="card-title fw-bold mb-3"><a
+              href="https://cybersec.upatras.gr/course/view.php?id=56"
+              target="_blank" rel="noopener">Incident Response - Cyber Legal,
+              Compliance &amp; Regulatory Response</a></h3>
+          <div class="mb-4 small">
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-BTCMP-08 (#1)</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>20/10/2026 - 20/11/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Enrolment deadline:</span> <strong>19
+                October 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-btcmp-08/"
+              target="_blank" rel="noopener">Enrol</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Incident Response - HR -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-warning" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-3"><span
+              class="badge bg-warning text-uppercase me-1">Bootcamp</span> <span
+              class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
+          </div>
+          <h3 class="card-title fw-bold mb-3"><a
+              href="https://cybersec.upatras.gr/course/view.php?id=57"
+              target="_blank" rel="noopener">Incident Response - HR &amp;
+              Organisational Support</a></h3>
+          <div class="mb-4 small">
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-BTCMP-09 (#1)</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>20/10/2026 - 20/11/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Enrolment deadline:</span> <strong>19
+                October 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-btcmp-09/"
+              target="_blank" rel="noopener">Enrol</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Incident Response - Communications -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-warning" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-3"><span
+              class="badge bg-warning text-uppercase me-1">Bootcamp</span> <span
+              class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
+          </div>
+          <h3 class="card-title fw-bold mb-3"><a
+              href="https://cybersec.upatras.gr/course/view.php?id=58"
+              target="_blank" rel="noopener">Incident Response - Communications,
+              Media Handling &amp; Public Messaging</a></h3>
+          <div class="mb-4 small">
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-BTCMP-10 (#1)</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>20/10/2026 - 20/11/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Enrolment deadline:</span> <strong>19
+                October 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-btcmp-10/"
+              target="_blank" rel="noopener">Enrol</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Secure Coding -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-warning" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-3"><span
+              class="badge bg-warning text-uppercase me-1">Bootcamp</span> <span
+              class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
+          </div>
+          <h3 class="card-title fw-bold mb-3"><a
+              href="https://cybersec.upatras.gr/course/view.php?id=50"
+              target="_blank" rel="noopener">Secure Coding</a></h3>
+          <div class="mb-4 small">
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-BTCMP-02 (#1)</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>02/11/2026 - 04/11/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Enrolment deadline:</span> <strong>1
+                November 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-btcmp-02/"
+              target="_blank" rel="noopener">Enrol</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Secure Coding C/C++ -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-primary" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-3"><span
+              class="badge bg-primary text-uppercase me-1">Cyber Range</span>
+            <span
+              class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
+          </div>
+          <h3 class="card-title fw-bold mb-3"><a
+              href="https://cybersec.upatras.gr/course/view.php?id=40"
+              target="_blank" rel="noopener">Secure Coding C/C++</a></h3>
+          <div class="mb-4 small">
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-CR-12 (#1)</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>02/11/2026 - 04/11/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Enrolment deadline:</span> <strong>1
+                November 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-cr-12/"
+              target="_blank" rel="noopener">Enrol</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Secure Coding .Net/C# -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-primary" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-3"><span
+              class="badge bg-primary text-uppercase me-1">Cyber Range</span>
+            <span
+              class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
+          </div>
+          <h3 class="card-title fw-bold mb-3"><a
+              href="https://cybersec.upatras.gr/course/view.php?id=41"
+              target="_blank" rel="noopener">Secure Coding .Net/C#</a></h3>
+          <div class="mb-4 small">
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-CR-13 (#1)</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>02/11/2026 - 04/11/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Enrolment deadline:</span> <strong>1
+                November 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-cr-13/"
+              target="_blank" rel="noopener">Enrol</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Secure Coding Java -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-primary" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-3"><span
+              class="badge bg-primary text-uppercase me-1">Cyber Range</span>
+            <span
+              class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
+          </div>
+          <h3 class="card-title fw-bold mb-3"><a
+              href="https://cybersec.upatras.gr/course/view.php?id=42"
+              target="_blank" rel="noopener">Secure Coding Java</a></h3>
+          <div class="mb-4 small">
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-CR-14 (#1)</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>02/11/2026 - 04/11/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Enrolment deadline:</span> <strong>1
+                November 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-cr-14/"
+              target="_blank" rel="noopener">Enrol</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Secure Coding Python -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-primary" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-3"><span
+              class="badge bg-primary text-uppercase me-1">Cyber Range</span>
+            <span
+              class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
+          </div>
+          <h3 class="card-title fw-bold mb-3"><a
+              href="https://cybersec.upatras.gr/course/view.php?id=43"
+              target="_blank" rel="noopener">Secure Coding Python</a></h3>
+          <div class="mb-4 small">
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-CR-15 (#1)</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>02/11/2026 - 04/11/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Enrolment deadline:</span> <strong>1
+                November 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-cr-15/"
+              target="_blank" rel="noopener">Enrol</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Secure Coding Mobile -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-primary" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-3"><span
+              class="badge bg-primary text-uppercase me-1">Cyber Range</span>
+            <span
+              class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
+          </div>
+          <h3 class="card-title fw-bold mb-3"><a
+              href="https://cybersec.upatras.gr/course/view.php?id=44"
+              target="_blank" rel="noopener">Secure Coding Mobile</a></h3>
+          <div class="mb-4 small">
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-CR-16 (#1)</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>02/11/2026 - 04/11/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Enrolment deadline:</span> <strong>1
+                November 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-cr-16/"
+              target="_blank" rel="noopener">Enrol</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Cyber Security Auditor -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-warning" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-3"><span
+              class="badge bg-warning text-uppercase me-1">Bootcamp</span> <span
+              class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
+          </div>
+          <h3 class="card-title fw-bold mb-3"><a
+              href="https://cybersec.upatras.gr/course/view.php?id=60"
+              target="_blank" rel="noopener">Cyber Security Auditor</a></h3>
+          <div class="mb-4 small">
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-BTCMP-12 (#1)</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>03/11/2026 - 06/11/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Enrolment deadline:</span> <strong>2
+                November 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-btcmp-12/"
+              target="_blank" rel="noopener">Enrol</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Incident Response - Cross-Functional Crisis -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-danger" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-3"><span
+              class="badge bg-danger text-uppercase me-1">Table-Top
+              Exercise</span> <span
+              class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
+          </div>
+          <h3 class="card-title fw-bold mb-3"><a
+              href="https://cybersec.upatras.gr/course/view.php?id=48"
+              target="_blank" rel="noopener">Incident Response -
+              Cross-Functional Crisis</a></h3>
+          <div class="mb-4 small">
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-SGTTX-08 (#1)</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>06/11/2026 - 06/11/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Enrolment deadline:</span> <strong>5
+                November 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-sgttx-08/"
+              target="_blank" rel="noopener">Enrol</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Cybersecurity Crisis Management for Public Authorities -->
+    <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
+      <div class="card cadmus-course-card h-100 shadow-sm">
+        <div class="cadmus-accent bg-danger" aria-hidden="true"> </div>
+        <div class="card-body d-flex flex-column">
+          <div class="mb-3"><span
+              class="badge bg-danger text-uppercase me-1">Table-Top
+              Exercise</span> <span
+              class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>
+          </div>
+          <h3 class="card-title fw-bold mb-3"><a
+              href="https://cybersec.upatras.gr/course/view.php?id=47"
+              target="_blank" rel="noopener">Cybersecurity Crisis Management for
+              Public Authorities</a></h3>
+          <div class="mb-4 small">
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-SGTTX-07 (#1)</strong></div>
+            <div><span class="text-muted">Training Session:</span>
+              <strong>09/11/2026 - 09/11/2026</strong></div>
+          </div>
+          <div class="cadmus-meta mt-auto"><span class="cadmus-date small">
+              <span class="text-muted">Enrolment deadline:</span> <strong>8
+                November 2026</strong> </span> <a
+              class="btn btn-primary cadmus-mini-register"
+              href="https://cybersec.upatras.gr/registration/cadmus-sgttx-07/"
+              target="_blank" rel="noopener">Enrol</a></div>
         </div>
       </div>
     </div>
   </div>
-  <h4 class="mb-4 text-dark border-bottom pb-2 fw-bold">Active Training
-    Sessions:</h4>
+  <h4 class="mb-4 border-bottom pb-2 fw-bold">Active Training Sessions:</h4>
   <div class="row justify-content-start mx-n2 mb-5">
     <div class="col-12 px-2">
       <div class="p-4 bg-light rounded text-center text-muted border"
@@ -38,8 +430,7 @@
       </div>
     </div>
   </div>
-  <h4 class="mb-4 text-dark border-bottom pb-2 fw-bold">Closed Training
-    Sessions:</h4>
+  <h4 class="mb-4 border-bottom pb-2 fw-bold">Closed Training Sessions:</h4>
   <div class="row justify-content-start mx-n2 mb-5">
     <div class="col-12 col-md-6 col-lg-4 px-2 mb-4">
       <div class="card cadmus-course-card h-100 shadow-sm">
@@ -54,8 +445,8 @@
               target="_blank" rel="noopener">Introduction to Malware
               Detection</a></h3>
           <div class="mb-4 small">
-            <div class="mb-1"><span class="text-muted">Course ID:</span>
-              <strong>CADMUS-MARE-01</strong></div>
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-MARE-01 (#1)</strong></div>
             <div><span class="text-muted">Training Session:</span>
               <strong>27/04/2026 - 07/06/2026</strong></div>
           </div>
@@ -81,8 +472,8 @@
               target="_blank" rel="noopener">Public Sector Ransomware Crisis</a>
           </h3>
           <div class="mb-4 small">
-            <div class="mb-1"><span class="text-muted">Course ID:</span>
-              <strong>CADMUS-SGTTX-01</strong></div>
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-SGTTX-01 (#1)</strong></div>
             <div><span class="text-muted">Training Session:</span>
               <strong>08/05/2026 - 24/05/2026</strong></div>
           </div>
@@ -107,7 +498,7 @@
               target="_blank" rel="noopener">Basics of Security Hardening of
               Networking Devices</a></h3>
           <div class="mb-4 small">
-            <div class="mb-1"><span class="text-muted">Course ID:</span>
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
               <strong>CADMUS-BTCMP-03 (#1)</strong></div>
             <div><span class="text-muted">Training Session:</span>
               <strong>01/07/2026 - 02/07/2026</strong></div>
@@ -134,8 +525,8 @@
               href="https://cybersec.upatras.gr/course/index.php?categoryid=8#:~:text=OSINT%20Bootcamp,-ID"
               target="_blank" rel="noopener">OSINT Bootcamp</a></h3>
           <div class="mb-4 small">
-            <div class="mb-1"><span class="text-muted">Course ID:</span>
-              <strong>CADMUS-BTCMP-18</strong></div>
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-BTCMP-18 (#1)</strong></div>
             <div><span class="text-muted">Training Session:</span>
               <strong>13/07/2026 - 31/07/2026</strong></div>
           </div>
@@ -160,8 +551,8 @@
               target="_blank" rel="noopener">Malware analysis, detection and
               threat intelligence</a></h3>
           <div class="mb-4 small">
-            <div class="mb-1"><span class="text-muted">Course ID:</span>
-              <strong>CADMUS-MARE-02</strong></div>
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-MARE-02 (#1)</strong></div>
             <div><span class="text-muted">Training Session:</span>
               <strong>06/07/2026 - 16/08/2026</strong></div>
           </div>
@@ -185,8 +576,8 @@
               href="https://cybersec.upatras.gr/course/index.php?categoryid=5#:~:text=Reverse%20Engineering,-ID"
               target="_blank" rel="noopener">Reverse Engineering</a></h3>
           <div class="mb-4 small">
-            <div class="mb-1"><span class="text-muted">Course ID:</span>
-              <strong>CADMUS-MARE-03</strong></div>
+            <div class="mb-1"><span class="text-muted">Session ID:</span>
+              <strong>CADMUS-MARE-03 (#1)</strong></div>
             <div><span class="text-muted">Training Session:</span>
               <strong>20/07/2026 - 16/08/2026</strong></div>
           </div>

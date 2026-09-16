@@ -5,38 +5,43 @@ def get_color(course_type):
     colors = {
         "Cyber Range": "primary",
         "Serious Game": "success",
-        "Table Top Exercise": "danger",
+        "Table-Top Exercise": "danger",
+        "TableTop Exercise": "danger",
         "Malware Analysis & Reverse Engineering": "info",
         "Malware Analysis": "info",
         "Bootcamp": "warning"
     }
     return colors.get(course_type, "secondary")
 
-def parse_date(date_str):
+def parse_date_flex(date_str, default_max=True):
     if not date_str or date_str.upper() == "TBA":
-        return datetime.max
+        return datetime.max if default_max else datetime.min
     try:
-        return datetime.strptime(date_str, "%d/%m/%y")
+        return datetime.strptime(date_str, "%d/%m/%Y")
     except ValueError:
-        return datetime.max
+        try:
+            return datetime.strptime(date_str, "%d/%m/%y")
+        except ValueError:
+            return datetime.max if default_max else datetime.min
+
+def parse_date(date_str):
+    return parse_date_flex(date_str, default_max=True)
 
 def format_display_date(date_str):
     if not date_str or date_str.upper() == "TBA":
         return date_str
-    try:
-        d = datetime.strptime(date_str, "%d/%m/%y")
+    d = parse_date_flex(date_str)
+    if d != datetime.max and d != datetime.min:
         return d.strftime("%d/%m/%Y")
-    except ValueError:
-        return date_str
+    return date_str
 
 def format_deadline(date_str):
     if not date_str or date_str.upper() == "TBA":
         return date_str
-    try:
-        d = datetime.strptime(date_str, "%d/%m/%y")
+    d = parse_date_flex(date_str)
+    if d != datetime.max and d != datetime.min:
         return d.strftime("%d %B %Y")
-    except ValueError:
-        return date_str
+    return date_str
 
 def format_session_id(session_id):
     if not session_id:
@@ -55,17 +60,32 @@ def generate_card(course, status):
     if status == "ACTIVE":
         status_badge = '<span class="badge cadmus-badge-open text-uppercase">Active</span>'
     elif status == "UPCOMING":
-        status_badge = '<span class="badge bg-warning text-dark text-uppercase">Upcoming</span>'
+        status_badge = '<span class="badge cadmus-badge-upcoming text-uppercase">Upcoming</span>'
     else:
-        status_badge = '<span class="badge bg-secondary text-uppercase">Closed</span>'
+        status_badge = '<span class="badge cadmus-badge-closed text-uppercase">Closed</span>'
 
+    now = datetime.now()
+    enrol_start_str = course.get("enrolment_start_date", "")
+    enrol_end_str = course.get("enrolment_end_date", "")
+    
+    enrol_start = parse_date_flex(enrol_start_str, default_max=False)
+    enrol_end = parse_date_flex(enrol_end_str, default_max=True)
+    
+    if enrol_end != datetime.max:
+        enrol_end = enrol_end.replace(hour=23, minute=59, second=59)
+
+    btn_text = "Enrol"
+    meta_label = "Enrolment deadline:"
+    meta_date_disp = format_deadline(enrol_end_str)
     enrol_open = False
+
     if status in ["ACTIVE", "UPCOMING"]:
-        deadline_date = parse_date(course.get("enrolment_end_date", ""))
-        if deadline_date != datetime.max:
-            deadline_date = deadline_date.replace(hour=23, minute=59, second=59)
-            if datetime.now() <= deadline_date:
-                enrol_open = True
+        if now < enrol_start:
+            enrol_open = False
+            meta_label = "Enrolment opens:"
+            meta_date_disp = format_deadline(enrol_start_str)
+        elif now <= enrol_end:
+            enrol_open = True
 
     if enrol_open:
         btn_class = "btn-primary"
@@ -79,7 +99,6 @@ def generate_card(course, status):
     start_disp = format_display_date(course.get("course_start_date", ""))
     end_disp = format_display_date(course.get("course_end_date", ""))
     session_disp = f"{start_disp} - {end_disp}" if start_disp and end_disp else course.get("course_start_date", "")
-    deadline_disp = format_deadline(course.get("enrolment_end_date", ""))
     formatted_id = format_session_id(course.get("training_session_id", ""))
 
     return f'''
@@ -98,9 +117,9 @@ def generate_card(course, status):
           </div>
           <div class="cadmus-meta mt-auto">
             <span class="cadmus-date small">
-              <span class="text-muted">Enrolment deadline:</span> <strong>{deadline_disp}</strong>
+              <span class="text-muted">{meta_label}</span> <strong>{meta_date_disp}</strong>
             </span>
-            <a class="btn {btn_class} cadmus-mini-register" {btn_href} {btn_attr}>Enrol</a>
+            <a class="btn {btn_class} cadmus-mini-register" {btn_href} {btn_attr}>{btn_text}</a>
           </div>
         </div>
       </div>
@@ -142,6 +161,8 @@ def main():
 .cadmus-training-grid .card-title a:hover { text-decoration: underline; }
 .cadmus-training-grid .badge { font-size: .65rem; font-weight: 600; letter-spacing: .035em; padding: .32rem .48rem; }
 .cadmus-training-grid .cadmus-badge-open { color: #146c43; background-color: #d1e7dd; border: 1px solid #a3cfbb; }
+.cadmus-training-grid .cadmus-badge-upcoming { color: #856404; background-color: #fff3cd; border: 1px solid #ffeeba; }
+.cadmus-training-grid .cadmus-badge-closed { color: #721c24; background-color: #f8d7da; border: 1px solid #f5c6cb; }
 .cadmus-training-grid .cadmus-meta { display: flex; align-items: center; gap: .25rem; background-color: var(--bs-secondary-bg, #f8f9fa); border: 1px solid var(--bs-border-color); border-radius: .375rem; padding: .42rem .5rem; }
 .cadmus-training-grid .cadmus-date { min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .cadmus-training-grid .cadmus-date strong { color: var(--bs-body-color, inherit); }
@@ -151,7 +172,7 @@ def main():
 <div class="cadmus-training-grid py-4">
 '''
 
-    html_output += '<h4 class="mb-4 text-dark border-bottom pb-2 fw-bold">Upcoming Training Sessions:</h4>\n'
+    html_output += '<h4 class="mb-4 border-bottom pb-2 fw-bold">Upcoming Training Sessions:</h4>\n'
     html_output += '<div class="row justify-content-start mx-n2 mb-5">\n'
     if upcoming:
         for c in upcoming:
@@ -166,7 +187,7 @@ def main():
         '''
     html_output += '</div>\n'
 
-    html_output += '<h4 class="mb-4 text-dark border-bottom pb-2 fw-bold">Active Training Sessions:</h4>\n'
+    html_output += '<h4 class="mb-4 border-bottom pb-2 fw-bold">Active Training Sessions:</h4>\n'
     html_output += '<div class="row justify-content-start mx-n2 mb-5">\n'
     if active:
         for c in active:
@@ -182,7 +203,7 @@ def main():
     html_output += '</div>\n'
 
     if closed:
-        html_output += '<h4 class="mb-4 text-dark border-bottom pb-2 fw-bold">Closed Training Sessions:</h4>\n'
+        html_output += '<h4 class="mb-4 border-bottom pb-2 fw-bold">Closed Training Sessions:</h4>\n'
         html_output += '<div class="row justify-content-start mx-n2 mb-5">\n'
         for c in closed:
             html_output += generate_card(c, "CLOSED")
